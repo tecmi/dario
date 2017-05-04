@@ -1,0 +1,72 @@
+.main,.temporadas,.temporada{
+	position: relative;
+	height: 700px;
+	background-image: 	url(../images/fondo.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.main .opacity{
+	top: 0;
+	left:0;
+	width: 100%;
+	height:100%;
+	position: absolute;
+	background: rgba(1,1,1,0.1);
+	z-index: 1;
+}
+.main .menu{
+	position: relative;
+	padding-top: 10%;
+	margin: 0 auto;
+	width: 	40%;
+	text-align: center;
+	z-index: 2;
+	font-size: 26px;
+}
+.main .menu h1{
+	color: #fff;
+}
+.main .menu a{
+	text-decoration: none;
+	color: #8648b8;
+}
+
+.temporadas,.temporada{
+	text-align: center;
+}
+.temporadas h1,.temporada h1{
+	color:#8648b8;
+}
+.navbar-flowers{
+	height: 100px;
+	background: transparent;
+	border-top: 0px solid transparent;
+}
+.navbar-flowers img{
+	width: 100px;	
+}
+.navbar-flowers a{
+	color: #fff!important;
+	font-size: 30px;
+}
+
+a.thumbnail{
+	text-decoration: none;	
+}
+
+.temporadas .thumbnail , .temporada .thumbnail{
+	background: rgba(255,255,255,0.7);
+}
+.temporadas .thumbnail h3,.temporada .thumbnail h3{
+	color: #8648b8;
+	font-size: 25px;
+}
+
+div.description{
+	font-size: 20px ;
+}
+.input-group{
+	padding: 10px;
+	font-size: 20px;
+}
